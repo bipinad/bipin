@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bipin-Contact</title>
+  <link rel = "icon" type = "icon/PNG" href = "https://i.ibb.co/Bg24jp9/icon.png">
+        
+  <style type="text/css">
+    #a1{
+      text-decoration: none;
+      padding-right: 17%;
+      color: #ffff00;
+            }
+            #a2{
+      text-decoration: none;
+      padding-right: 17%;
+      color: #ffff00;
+            }
+            #a3{
+      text-decoration: none;
+      padding-right: 17%;
+      color: #ffff00;
+            }
+            #a4{
+      text-decoration: none;
+      padding-right: none;
+      color: #ffff00;
+            }     
+      .p1{
+            border-radius: 50%;
+            margin-top: 5px;
+        }
+ .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+        }
+  .header{ 
+        padding: 2px 2px;
+            background: #000000
+}
+#section4{
+  height: 555px;
+  display: block;
+  position: relative;
+}
+#section4::after {
+  content: "";
+  background: url(https://i.ibb.co/26NTJ06/background3.png);
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height:100%;
+  background-size: auto;
+  position: absolute;
+  z-index: -1; 
+  -webkit-filter: blur(4px); 
+  filter: blur(4px);  
+}
+}
+</style>
+</head>
+<body bgcolor="#D3D3D3">
+    
+    <img src="https://i.ibb.co/3R8QVPT/bipin.jpg" height="8%" width="8%" class="p1" alt="BipinAdh">
+    <img src="https://i.ibb.co/QM15zMk/logo1.png" height="12%" width="12%" class="p2" align="right" alt="Logo">
+
+      <h2 align="center" style="color:#4d4d00;">The world is more colourful than a eye can see!!</strong></h2>
+      
+<div class="header" id="myHeader"><h2>
+<a href="home.html" id="a1">Home</a>
+<a href="gallery.html" id="a2">Gallery</a>
+<a href="about.html" id="a3">AboutMe</a>
+<a href="contact.html" id="a4">Contact</a>
+</h2></div>
+
+<script>
+window.onscroll = function() {myFunction()};
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+<div class="contact" id="section4">
+  <h2 style="text-align: center; color: purple; margin-bottom: 50px; font-size: 30px;" align="center"  >Contact</h2><br>
+  <h3 align="center" style="margin-bottom: 20px; font-size: 30px;">Email:- <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZZzfBSBlHQszZdQgpjQkwWTdBZgGBKWjddhwLPJNWsRbQpCjbFPzpcmCRlVKkGtnPpWWg" target="_blank" style="text-decoration: none; color: green;">bipinadh1999@gmail.com</a></h3><br>
+  <h3 align="center" style="margin-bottom: 20px; font-size: 30px;">Phone :- 9846778398</h3><br>
+  <h3 align="center" style="font-size: 30px;">Facebook:-<a href="https://www.facebook.com/dobipin" target="_blank" style="text-decoration: none; color: green;">Bipin Adhikari</a></h3>
+  <h1><h3 align="center" style="font-size: 35px;"><a href="https://www.instagram.com/nepal.here/" target="_blank" style="text-decoration: none;colou">CLick here to follow on instagram</a></h3> </h1>
+</div>
+
+</body>
+</html>
